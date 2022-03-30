@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="container_hero">
             <div className="left">
                 <h1 className='h_1'>HELLO</h1>
-                <h1 className='h_2'>I'm Prachi Raj Tiwari</h1>
+                <h1 className='h_2'>I'm Rishi Raj Tiwari</h1>
                 <p>I consider myself a creative, open-minded and proactive person, who is up to use her bag full of creativity to the best of her capability.
                 </p>
                 <p>I'm currently pursuing masters of Design from SPA, Bhopal majoring in visual communication.</p>
