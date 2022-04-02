@@ -17,7 +17,7 @@ export default function Resume() {
              <div>
                <img src={ResumeP} alt="" style={{width:'80%'}} />
                {show && <div>
-                 <img src={Resume_PrachiRaj} style={{height:'800px',width:'80%'}}/>
+                 <img src={PrachiResume} style={{height:'800px',width:'80%'}}/>
                </div>}
                 
                
