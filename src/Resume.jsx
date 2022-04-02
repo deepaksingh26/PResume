@@ -12,12 +12,12 @@ export default function Resume() {
         <div style={{display:'flex',margin:'0px 30px',justifyContent:'space-between'}}>
              <div className='Rleft' >
                <h2 style={{fontWeight:"bold",marginRight:"3em"}}>RESUME</h2>
-               <a className='download' href={Resumepdf} download><button style={{border:'none',marginRight:"4em"}}>Download now</button></a>
+               <a className='download' href={Resumepdf} download><button style={{border:'none',marginRight:"4em",width:'200px',padding:'5px 10px',borderRadius:"0.4em"}}>Download now</button></a>
              </div>       
              <div>
                <img src={ResumeP} alt="" style={{width:'80%'}} />
                {show && <div>
-                 <img src={PrachiResume} style={{height:'830px',width:'80%'}}/>
+                 <img src={PrachiResume} style={{height:'800px',width:'80%'}}/>
                </div>}
                 
                
@@ -28,8 +28,6 @@ export default function Resume() {
 
              </div>
         </div>
-
-       
     </div>
   )
 }
