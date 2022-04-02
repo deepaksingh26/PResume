@@ -9,7 +9,7 @@ export default function Resume() {
   const [show,setShow]=useState(false);
   return (
     <div>
-        <div style={{display:'flex',margin:'0px 30px',justifyContent:'space-between'}}>
+        <div style={{display:'flex',margin:'0px 30px',justifyContent:'space-between',minHeight:'100vh'}}>
              <div className='Rleft' >
                <h2 style={{fontWeight:"bold",marginRight:"3em"}}>RESUME</h2>
                <a className='download' href={Resume_PrachiRaj} download><button style={{border:'none',marginRight:"4em",width:'200px',padding:'5px 10px',borderRadius:"0.4em"}}>Download now</button></a>
